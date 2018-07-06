@@ -194,7 +194,7 @@ SUBARCH := $(shell uname -m | sed -e s/i.86/x86/ -e s/x86_64/x86/ \
 # Note: Some architectures assign CROSS_COMPILE in their arch/*/Makefile
 
 ARCH		?=arm64
-CROSS_COMPILE	?=/home/xxh3x/Github/KernelBuilder_Pack/Toolchains/gcc-linaro-4.9.4-2017.01-x86_64_aarch64-linux-gnu/bin/aarch64-linux-android-
+CROSS_COMPILE	?=/home/xxh3x/Code/KernelBuilder_Pack/Toolchains/gcc-linaro-4.9.4-2017.01-x86_64_aarch64-linux-gnu/bin//aarch64-linux-gnu-
 
 # Architecture as present in compile.h
 UTS_MACHINE 	:= $(ARCH)
